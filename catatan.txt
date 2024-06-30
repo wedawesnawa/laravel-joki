@@ -1,0 +1,5 @@
+docker exec -it your_container_name_or_id (db) bash
+
+mysqld --verbose --help | grep bind-address
+
+login ke phpmyadmin
