@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: laravel-app
-    container_name: laravel-app
+    image: image-laravel-env
+    container_name: laravel-joki
     # ports:
     #   - "8002:8000"
     volumes:
